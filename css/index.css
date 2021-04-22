@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.highlight {
+  color: #da7c18;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #302f2f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3e4239;
+  color: #da7c18;
+}
+
+/* Navbar  */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #302f2f;
+  overflow: auto;
+}
+
+#navbar h1 {
+  display: inline;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #3e4239;
+  color: #da7c18;
+}
+
+#showcase {
+  background: url("../img/bball.jpg") no-repeat center center/cover;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  padding-top: 180px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  color: white;
+  line-height: 1.5em;
+  padding-bottom: 25px;
+}
