@@ -19,11 +19,18 @@ h3 {
   color: #da7c18;
 }
 
+.highlighted {
+  background-color: #da7c18;
+}
 .container {
   max-width: 1100px;
   margin: auto;
   overflow: auto;
   padding: 0 20px;
+}
+
+.clr {
+  clear: both;
 }
 
 .btn {
@@ -137,21 +144,42 @@ a {
   padding-top: 10px;
 }
 
-#court-info div.info-content p {
+#court-info div.info-content {
   float: right;
   width: 50%;
   min-height: 100%;
-  text-align: left;
+  text-align: center;
   padding: 10px 25px;
   overflow: hidden;
-  line-height: 2m;
-  padding-bottom: 10px;
+  line-height: 2em;
+  padding: 35px 25px;
 }
 
-#court-info div.info-content {
-  text-align: center;
+#court-info div.info-content a {
+  margin-top: 25px;
 }
 
 .bg-dark {
   background-color: #302f2f;
+}
+
+/* Features */
+
+#features .box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 25px 20px;
+  height: 200px;
+}
+
+#features .fas {
+  font-size: 35px;
+}
+
+/* index footer */
+#index-footer {
+  text-align: center;
+  color: #fff;
+  padding: 10px 10px;
 }
