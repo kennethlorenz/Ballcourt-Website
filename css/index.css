@@ -58,6 +58,10 @@ h3 {
   background-color: 3e4239;
 }
 
+.bg-darker {
+  background-color: orange;
+}
+
 /* Navbar  */
 a {
   color: #fff;
@@ -102,7 +106,7 @@ a {
 }
 
 #showcase .showcase-bg {
-  background: url("../img/showcase-bg.jpg") no-repeat center center/cover;
+  background: url("../img/IMG_3422.jpg") no-repeat center center/cover;
   /* background-repeat: no-repeat;
   background-position: center; */
   min-height: 100%;
@@ -115,12 +119,12 @@ a {
 
 #showcase .showcase-content h1 {
   font-size: 60px;
-  color: #3e4239;
+  color: #000000;
   line-height: 1.2em;
 }
 
 #showcase .showcase-content p {
-  color: #3e4239;
+  color: #000000;
   line-height: 1.5em;
   padding-bottom: 25px;
 }
@@ -134,7 +138,7 @@ a {
 
 #court-info .info-img {
   float: left;
-  background: url("../img/courtinfo\ bg.jpeg") no-repeat center center/cover;
+  background: url("../img/courtinfo-bg.jpg") no-repeat center center/cover;
   min-height: 100%;
   width: 50%;
 }
@@ -163,14 +167,17 @@ a {
   background-color: #302f2f;
 }
 
+.bg-darker {
+  background-color: orange;
+}
 /* Features */
 
 #features .box {
   float: left;
   width: 33.3%;
   text-align: center;
-  padding: 25px 20px;
-  height: 200px;
+  padding: 50px 50px;
+  height: 270px;
 }
 
 #features .fas {
@@ -182,4 +189,90 @@ a {
   text-align: center;
   color: #fff;
   padding: 10px 10px;
+}
+
+/* About Page */
+/* About-info */
+#info {
+  padding: 10px 10px;
+}
+
+#info .about-info-left {
+  float: left;
+  width: 50%;
+  margin-top: auto;
+  line-height: 2.5em;
+}
+
+#info .about-info-right img {
+  display: block;
+  float: right;
+  width: 30%;
+  min-height: 100%;
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 35px;
+}
+
+#testimonials {
+  background: url("/img/testimonials-bg.jpg") no-repeat center center/cover;
+  height: 600px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+#testimonials h2 {
+  text-align: center;
+}
+#testimonials h3 {
+  margin-top: 5px;
+  color: #302f2f;
+}
+
+#testimonials .comments {
+  background-color: #302f2f;
+  margin: auto;
+  overflow: auto;
+  width: 50%;
+  margin-bottom: 35px;
+  border-radius: 20px;
+}
+
+#testimonials .comments img {
+  float: left;
+  width: 100px;
+  border-radius: 15px;
+  margin: 10px 10px;
+}
+
+#contact-us {
+  line-height: 2em;
+}
+
+/* About Us Page */
+#contact-us form label,
+#contact-us form input,
+#contact-us form button {
+  display: block;
+}
+
+#contact-us form {
+  margin-bottom: 10px;
+}
+
+#contact-us form input,
+#contact-us textarea {
+  min-width: 50%;
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-us textarea {
+  height: 200px;
+}
+
+#contact-us form input:focus,
+#contact-us form textarea:focus {
+  outline: none;
+  border-color: #da7c18;
 }
