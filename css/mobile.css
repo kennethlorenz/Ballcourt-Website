@@ -1,0 +1,84 @@
+#navbar .logo {
+  display: block;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Showcase */
+
+#showcase .showcase-content {
+  padding-top: 100px;
+}
+
+/* Court info */
+
+#court-info .info-img {
+  display: none;
+}
+
+#court-info {
+  height: 500px;
+  text-align: center;
+}
+
+#court-info div.info-content {
+  float: none;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Features */
+
+#features .box {
+  float: none;
+  width: 100%;
+}
+
+/* About Section */
+/* About info */
+
+#info .about-info-left {
+  float: none;
+  width: 100%;
+  line-height: 2.5rem;
+  padding: 10px 10px;
+}
+
+#info .about-info-right img {
+  display: none;
+}
+
+#testimonials {
+  padding-top: 35px;
+}
+
+#testimonials .comments {
+  width: 95%;
+  padding: 10px;
+  height: auto;
+}
+
+#testimonials .comments img {
+  float: left;
+  width: 25%;
+}
+#testimonials .comments h3 {
+  display: inline;
+}
+
+/* Contact section */
+
+#features .box-contact {
+  float: none;
+  width: 100%;
+  border-bottom: #444 dotted 1px;
+}
